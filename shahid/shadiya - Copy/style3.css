@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    width: 1525px;
+    height:725px;
+}
+.nav{
+    position: absolute;
+    top:150px;
+    left:500px;
+    width:300px;
+    height:300px;
+    background-color: yellowgreen;
+    border-radius: 20px;
+    box-shadow: 20px 10px 40px goldenrod,-30px -20px 20px yellowgreen;
+}
+.nav2{
+    position: absolute;
+    top:30px;
+    margin:0 40px;
+}
+.nav2 label{
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+} .nav2 input{
+    border-radius: 10px;
+}
+.nav2 p{
+    position: absolute;
+    top:50px;
+    color: red;
+    font-size: 15px;
+}
+.nav3{
+    position: absolute;
+    top:80px;
+    margin:0 40px;
+}
+.nav3 label{
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+} .nav3 input{
+    border-radius: 10px;
+}
+.nav3 p{
+    position: absolute;
+    top:100px;
+    color: red;
+    font-size: 15px;
+}
+.nav4{
+    position: absolute;
+    top:130px;
+    margin:0 40px;
+}
+.nav4 label{
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+} .nav4 input{
+    border-radius: 10px;
+}
+.nav4 p{
+    position: absolute;
+    top:150px;
+    color: red;
+    font-size: 15px;
+}
+button{
+    position: absolute;
+    top: 200px;
+    left:60px;
+    background-color: azure;
+    color: red;
+    width:150px;
+    height: 30px;
+    font-size: 20px;
+    letter-spacing: 5px;
+
+}
+p{
+    position: absolute;
+    top:230px;
+    left:40px;
+    color: red;
+    font-size: 15px;
+}

@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width,initial-scale = 1.0">
+        <link rel = "stylesheet" href = "style1.css" />
+    </head>
+    <body>
+        <div class = "container">
+            <div class = "nav">
+                <h1>LOGIN IN</h1>
+                <label for = "user">USERNAME or EMAIL-ID</label><br>
+                <input type = "text" id = "user" placeholder = "USERNAME or EMAIL-ID"><br>
+                <p id = "user1"></p><br>
+                <label for = "pass">PASSWORD</label><br>
+                <input type = "password" id = "pass" placeholder = "PASSWORD"><br>
+                <p id = "pass1"></p><br>
+                <a href = "http://127.0.0.1:5500/index3.html">Forget Password</a><br>
+                <button onclick = "call()">SIGN IN</button><br>
+                <p id = "demo"></p><br>
+                <p>OR</p><br>
+                <a href = "http://127.0.0.1:5500/index2.html">Create New Account</a>
+            </div>
+        </div>
+        <script >
+            function call(){
+             document.getElementById("demo").innerHTMl = "you have successfully submit";}
+
+        </script>
+    </body>
+</html>

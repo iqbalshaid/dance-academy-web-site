@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container{
+    width:1525px;
+    height:725px;
+    background-color: rgb(216, 128, 128);
+}
+.nav{
+    width:1525px;
+    height:60px;
+    
+}
+.nav ul{
+    position: absolute;
+    top:30px;
+    left:1100px;
+}
+.nav ul li{
+    float: left;
+    margin:0 25px;
+    list-style: none;
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    color:darkgreen;
+    
+}
+
+    
+
+.nav ul li a:hover{
+    background-color: aliceblue;
+    border:2px solid fuchsia;
+    border-radius: 3px;
+    transition: all 2s ease;
+    
+}
+.nav1{
+    width:1525px;
+    height:100px;
+    position: absolute;
+    top:80px;
+}
+.nav1 h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(225, 212, 212);
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+.nav1 p{
+    text-align: center;
+    font-size:15px;
+    font-weight: bold;
+    color:rgb(225, 212, 212);
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    text-shadow: 15px 10px 20px seagreen;
+    
+}
+.nav2{
+    position: absolute;
+    top:200px;
+    left:150px;
+    width:200px;
+    height:200px ;
+    border: 2px solid black;
+    border-bottom-right-radius: 14px;
+    border-top-right-radius: 20px;
+    box-shadow: 5px 6px 7px yellowgreen;
+}
+
+
+.nav3{
+    position: absolute;
+    top:200px;
+    left:500px;
+    width:200px;
+    height:200px ;
+    border: 2px solid black;
+    border-bottom-right-radius: 14px;
+    border-top-right-radius: 20px;
+    box-shadow: 5px 6px 7px yellowgreen;
+}
+
+.nav4{
+    position: absolute;
+    top:200px;
+    left:850px;
+    width:200px;
+    height:200px ;
+    border: 2px solid black;
+    border-bottom-right-radius: 14px;
+    border-top-right-radius: 20px;
+    box-shadow: 5px 6px 7px yellowgreen;
+
+}
+.nav5{
+    position: relative;
+    top:150px;
+    left:1200px;
+    width:200px;
+    height:200px ;
+    border: 2px solid black;
+    border-bottom-right-radius: 14px;
+    border-top-right-radius: 20px;
+    box-shadow: 5px 6px 7px yellowgreen;
+
+}
+.nav6{
+    position: absolute;
+    top:450px;
+    width: 1525px;
+    height:275px;
+    background-color: aquamarine;
+}
+.nav6 h3{
+    text-align: center;
+    font-size: 30px;
+    color:peru;
+}
+.nav6 i{
+    position: relative;
+    left:150px;
+    font-size: 60px;
+    margin:0 50px;
+
+}
+.nav6 pre{
+    position: absolute;
+    left:1150px;
+    
+}
